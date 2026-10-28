@@ -93,7 +93,7 @@ elif menu == "🔍 Cari & Cetak Digital KK":
                         <td><b>Sistem</b></td><td>: Database Lokal AI</td></tr>
                 </table>
             </div>
-            """, unsafe_allowed_html=True)
+            """, unsafe_allow_html=True)
             
             st.write("### 👥 Daftar Anggota Keluarga")
             tabel_tampil = detail_kk[["NIK", "Nama_Anggota", "Jenis_Kelamin", "Hubungan"]].reset_index(drop=True)
